@@ -1,0 +1,6 @@
+---
+- name: Add the Oracle Java PPA to apt
+  apt_repository:
+    repo: 'ppa:webupd8team/java'
+- name: Install the latest stable version of Oracle Java 8 
+  apt: name=oracle-java8-installer state=present update_cache=yes 

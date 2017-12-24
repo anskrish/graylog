@@ -1,0 +1,5 @@
+---
+- name: install graylog server
+  hosts: tomcat
+  roles:
+     - graylog-role

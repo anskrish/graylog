@@ -1,0 +1,5 @@
+---
+apt-key-id: "7F0CEB10"
+keyserver: "keyserver.ubuntu.com"
+mongo: mongodb-org
+
